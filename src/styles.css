@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+text-align: center;
+  color: #369;
+  font-size: 250%;
+  font-family: 'Poppins', sans-serif;
+}
+h2, h3 {
+  color: #444;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* everywhere else */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+}
